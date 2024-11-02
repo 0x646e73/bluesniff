@@ -1,0 +1,15 @@
+[package]
+name = "bluesniff"
+version = "1.0.0"
+authors = ["0x646e73 (DNS)"]
+edition = '2021'
+description = "A fast and simple Bluetooth scanner which uses the btleplug library to scan for nearby Bluetooth devices."
+keywords = ["bluetooth", "scanner", "rust", "bluesniff", "0x646e73"]
+categories = ["networking", "hardware"]
+license = "MIT"
+repository = "https://github.com/0x646e73/bluesniff"
+homepage = "https://github.com/0x646e73/bluesniff#readme"
+
+[dependencies]
+btleplug = "0.11.6"
+tokio = { version = "1", features = ["full"] }
